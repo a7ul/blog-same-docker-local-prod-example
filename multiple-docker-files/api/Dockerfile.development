@@ -1,0 +1,4 @@
+FROM node:16-alpine
+
+# Some extra deps. For example graphicsmagick for a npm module like gm
+RUN apk add --update graphicsmagick
